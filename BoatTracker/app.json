@@ -12,7 +12,8 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.cruzjustin38.boattracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -20,6 +21,11 @@
     "plugins": [
       "expo-asset",
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "114b6ba0-7abf-4963-9179-db688373b685"
+      }
+    }
   }
 }
