@@ -7,13 +7,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTabletMode": true
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.cruzjustin38.boattracker",
+      "config": {
+        "googleMapsApiKey": "YOUR_GOOGLE_MAPS_API_KEY"
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
-      "package": "com.cruzjustin38.boattracker"
+      "package": "com.cruzjustin38.boattracker",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAx_H_Ba1MLTN5t3e9v4YWhwuEGpaayc1I"
+        }
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
